@@ -1,0 +1,42 @@
+.menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(142, 179, 166);
+  padding: 10px 20px;
+
+}
+.menu__logo{
+  display: flex;
+  width: 100px;
+}
+.menu__list{
+  display: flex;
+  margin-left: auto;
+  margin-right: 50px;
+}
+.menu__item{
+  list-style: none;
+  padding:0 10px;
+}
+.menu__link{
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+.active{
+  background-color: red;
+  padding: 5px;
+  color: rgb(241, 225, 8);
+  font-weight: 800; 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.menu__search{
+  padding: 6px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+.menu__search::placeholder{
+  font-size: 18px;
+}
