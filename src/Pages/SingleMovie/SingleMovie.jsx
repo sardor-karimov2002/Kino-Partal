@@ -113,7 +113,7 @@ const SingleMovie = () => {
 
     })
       .then(function (response) {
-        console.log(response);
+        // console.log(response);
         setPerson({
           isFetched: true,
           data: response.data,
@@ -131,7 +131,7 @@ const SingleMovie = () => {
       })
 
   }, [params.id]);
-  console.log(person.data);
+  // console.log(person.data);
   return (
     <>
       {

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import bootstrap from "bootstrap"
 import "./MoviesCard.css"
 const MoviesCard = ({ obj }) => {
   const {id, vote_average, title, release_date, poster_path } = obj
